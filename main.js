@@ -78,6 +78,5 @@ const broadcast = (ws, message, includeSelf) => {
 };
 
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
+app.get(express.static('public'));
 });
